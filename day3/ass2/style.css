@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    border: 2px solid rgb(129, 235, 129);
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #counterButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  #count {
+    font-size: 24px;
+    margin-top: 10px;
+  }
